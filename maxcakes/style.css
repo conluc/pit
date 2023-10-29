@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: salmon;
+}
+
+#header {
+    margin: 10px auto;
+    padding: 80px;
+    clear: both;
+    width: 1000px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: white url(bg.jpg) top right no-repeat;
+    background-size: contain;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#menu-no-account, #menu-client, #menu-employee {
+    margin: 10px auto;
+    clear: both;
+    width: 1000px;
+}
+
+#menu-no-account ul, #menu-client ul, #menu-employee ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#menu-no-account ul li, #menu-client ul li, #menu-employee ul li {
+    list-style-type: none;
+    background-color: orange;
+    float: left;
+    text-align: center; 
+}
+
+#menu-no-account ul li {
+    width: 50%;
+}
+
+#menu-client ul li {
+    width: 25%;
+}
+
+#menu-employee ul li {
+    width: 33.33%;
+}
+
+#menu-no-account ul li a, #menu-client ul li a, #menu-employee ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu-no-account ul li a:hover, #menu-client ul li a:hover, #menu-employee ul li a:hover {
+    background-color: blue;
+}
+
+#lower-menu {
+    margin: -50px auto;
+    clear: both;
+    width: 1000px;
+}
+
+#lower-menu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#lower-menu ul li {
+    list-style-type: none;
+    background-color: orange;
+    float: left;
+    text-align: center; 
+}
+
+#lower-menu ul li {
+    width: 50%;
+}
+
+#lower-menu ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#lower-menu ul li a:hover {
+    background-color: blue;
+}
+
+#body {
+    margin: 80px auto;
+    clear: both;
+    width: 1000px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-start-start-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: white;
+}
+
+#body-small {
+    margin: 80px auto;
+    padding: 50px;
+    clear: both;
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-start-start-radius: 40px;
+    border-end-end-radius: 40px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.item-list {
+    width: 900px;
+    border: 1px solid black;
+}
+
+.item-list td {
+    border: 1px solid black;
+}
+
+.catalog-item {
+    margin: 0px 40px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.catalog-item td {
+    border: 1px solid black;
+}
+
+.feedback-list {
+    width: 900px;
+    border: 1px solid black;
+}
+
+.feedback-list td {
+    border: 1px solid black;
+}
